@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-spot your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Spotify_icon.svg.png" alt="spotify"> Spotify</li>
+            <li>All</li>
+            <li>Music</li>
+            <li>Podcasts</li>
+            <li>Wrapped</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img  alt="1">
+                        <span class="songName">Lover</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i  id="0" class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1">
+                        <span class="songName"> Paper rings</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i  id="1" class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1">
+                        <span class="songName"> lovestory</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i  id="2" class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">You are Losing me</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i id="3" class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName"> Enchanted</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i id="4"class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName"> Cruel summer</span>
+                        <span class="songlistplay"><span class="timestamp">05.34<i id="5"class=" far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0    " max="100">
+        <div class="icons">
+            <!--fontawsomeicons-->
+            <i class="fa-solid fa-3x fa-backward-fast"></i>
+            <i class=" far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid  fa-3x fa-forward-fast"></i>
+        </div>
+            <div class="songInfo">
+                <img src="playing.gif" width="90px" alt="" id="gif">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/bf958673e4.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
