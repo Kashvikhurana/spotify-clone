@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: rgb(78, 128, 172);
 }
 
 *{
@@ -39,7 +39,7 @@ nav ul li{
 
 .container{
     min-height: 68vh;
-    background-color:bisque;
+    background-color:rgb(78, 128, 172);
     color: white;
     flex-direction: column;
    font-family: 'Varela Round', sans-serif;
